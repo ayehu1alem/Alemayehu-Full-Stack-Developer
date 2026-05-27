@@ -1,0 +1,61 @@
+name: portfolio
+description: "ALEMAYEHU Portfolio"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.4
+  circular_menu: ^4.0.0
+  url_launcher: ^6.3.1
+  webview_flutter: ^4.13.1
+  webview_flutter_web: ^0.2.3+4
+  easy_localization: ^3.0.8
+  flutter_native_splash: ^2.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+#  flutter_launcher_icons: ^0.14.4
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/logo/
+    - assets/images/icons/
+    - assets/images/projects/
+    - assets/translations/
+
+  fonts:
+    - family: SorpantRegular
+      fonts:
+        - asset: assets/fonts/SorpantRegular.otf
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo/icon_1024.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/images/logo/icon_1024.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/logo/icon_1024.png
+  android_12:
+    image: assets/images/logo/icon_1024.png
+    color: "#000000"
+  web: false
