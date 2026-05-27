@@ -1,0 +1,32 @@
+{
+  "title": "ALEMAYEHU - Portfolio",
+  "name": "ALEMAYEHU HADDIS",
+  "home": "Home",
+  "service": "Services",
+  "projects": "Projects",
+  "skills": "Skills",
+  "blog": "Blog",
+  "contact": "Contact Us",
+  "about_me": "I am a passionate and detail-oriented Full-Stack Developer dedicated to transforming complex problem statements into high-performance, responsive, and visually stunning digital experiences. With deep expertise across front-end frameworks and back-end logic, I specialize in building cross-platform applications that adapt flawlessly to any screen size—from compact smartphones to large desktop monitors.\n\nMy technical toolkit is anchored in Flutter & Dart for crafting smooth, native-feeling interfaces, paired with clean state management practices (Provider), fluid layout architectures, and comprehensive internationalization support (Localization). On the backend, I design reliable and highly scalable data architectures that drive fluid operational execution.\n\nI thrive on bridging the gap between elegant UI design and robust software engineering, ensuring every line of code is clean, reusable, and built for scale. Whether it's crafting interactive learning modules, personal portfolios, or complex data platforms, I focus on delivering end-to-end solutions that elevate user engagement and solve real-world problems.",
+
+  "text_welcome": "Hi!",
+  "text_one": "My name is ",
+  "text_two": "I specialize in developing robust:",
+  "text_android": "Android",
+  "text_ios": "iOS",
+  "text_desktop": "Windows, Mac, Linux and Ubuntu",
+  "text_web": "Websites: Dynamic and Static",
+  "text_available": "Available at:",
+  "text_projects": "Completed Projects",
+  "text_skills": "Specialized Skills",
+  "text_blog_section": "Blog Section",
+
+  "text_get_in_touch": "Get in Touch",
+  "text_your_name": "Your Name",
+  "text_your_email": "Your Email",
+  "text_subject": "Subject",
+  "text_your_message": "Your Message",
+  "text_submit": "Submit",
+
+  "text_right": "All rights reserved @alemayehu.org"
+}
