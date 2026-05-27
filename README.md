@@ -1,17 +1,21 @@
-# portfolio
+Initialize multi-platform developer portfolio with localization and responsive design
 
-A new Flutter project.
+Implement a cross-platform Flutter application supporting Android, iOS, Web, and Desktop (Windows, macOS, Linux). This commit establishes the core architecture, styling, and content for a professional portfolio.
 
-## Getting Started
+*   **Core Architecture & Scaling**: 
+    *   Implement a `ResponsiveContext` extension in `breakpoints.dart` for adaptive layout handling.
+    *   Define a centralized `CustomColors` palette and reusable `AppButtonStyles`.
+    *   Integrate `easy_localization` with support for English and Amharic.
 
-This project is a starting point for a Flutter application.
+*   **Feature Modules**:
+    *   **Hero & Services**: Create responsive sections for service offerings across mobile and desktop.
+    *   **Project Showcase**: Implement `ProjectCardWidget` and `ProjectUtils` to display work with deep links to web, mobile stores, and source code.
+    *   **Skills Section**: Add an interactive `SkillsCard` with micro-scale hover animations.
+    *   **Download Flow**: Build a custom Android APK installation guide and download dialog for mobile users.
+    *   **Blog & Socials**: Integrate platform-specific webview stubs for blog hosting and a unified social media launch utility.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   **Platform Specifics**:
+    *   **Android**: Configure `AndroidManifest.xml` with intent queries and setup dark mode splash screen support (including Android 12+).
+    *   **Web**: Set up `index.html` with SEO meta tags, Open Graph previews, and JSON-LD schema.
+    *   **Native Runners**: Initialize boilerplate for Linux (GTK), Windows (Win32), and macOS targets.
+    *   **Build**: Configure Gradle 8.14 wrapper and update multi-platform `.gitignore` files.
